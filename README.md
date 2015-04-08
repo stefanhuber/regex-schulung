@@ -3,14 +3,14 @@
 ## Beispiele
 
 #### Die Begriffe Apfel, Birne und Banane
-\b(Apfel|Birne|Banane)\b
+    \b(Apfel|Birne|Banane)\b
 
 #### Alle Vorkommen des Namens: Maier, Meier, Mayer
-\bM(ai|ei|ay)er\b
-\bM[ae][iy]er\b
+    \bM(ai|ei|ay)er\b
+    \bM[ae][iy]er\b
 
 #### Eine Emailadresse (einfache Variante)
-\b[a-zA-Z_.\-]*@[a-z\-]*\.[a-z]{2,}\b
+    \b[a-zA-Z_.\-]*@[a-z\-]*\.[a-z]{2,}\b
 
 #### Eine Zahl größer 15:
     \b(?:1[6-9]|[2-9]\d|\d{3,})\b
