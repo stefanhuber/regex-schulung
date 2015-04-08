@@ -19,8 +19,8 @@
 #### Hexadezimal Farb Code:
     #(?:[0-9a-fA-F]{3}){1,2}
 
-#### Texte innerhalb von ""
-".*?"
+#### Texte innerhalb von "" oder ''
+    ('|")(.*?)\1
 
 #### Eine Zeichenkette mit gerader Länge:
     \b(?:.{2})+\b
